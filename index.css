@@ -1,0 +1,43 @@
+html,body {width: 100%;height: 100%;overflow: hidden;margin: 0;padding: 0;}
+
+body {}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.bottom {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    flex: 1;
+}
+
+.tips {
+    background: rgba(0, 0, 0, 0.29);
+    padding: 4px 0;
+}
+
+li.colorItem {
+    width: 79px;
+    height: 17px;
+    background: red;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.color {
+    padding: 0;
+}
